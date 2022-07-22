@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+header{
+    background: url(img/baner.png);
+    width: 1870px;
+    height: 340px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 20px;
+}
+
+nav{
+	background-color: #1C2943;
+	position: relative;
+	height: 40px;
+}
+.templatemo_contacttitle {
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.templatemo_sub_contacttitle {
+    width: 100%;
+    font-size: 22px;
+    color: #91bf24;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.templatemo_contact {
+    margin: 30px;
+    width: 100%;
+    margin-left: 15%;
+}
+
+.templatemo_contactform input, textarea {
+    width: 100%;
+    background: #282828;
+    border: 1px solid #393939;
+    padding: 7px 10px;
+    margin: 0px 0px 10px 0px;
+    background-color: #FAFAFA;
+}
+
+.templatemo_contactform textarea {
+    height: 100px;
+}
+
+
+.templatemo_contactform .btn-primary {
+    background: #92bf24;
+    border: none;
+    border-radius: 0px;
+    color: #3d5602;
+    font-weight: 800;
+}
+
+.templatemo_contactform .btn-primary:hover {
+    background: #a6d82c;
+}
+
+.social {
+    page-break-after: 80px;
+    margin: 90px;
+    box-sizing: border-box;
+    border: 80px;
+	
+}
+
+.logoe{
+ position: absolute;
+ left: 800px;
+ 
+}
+div.menu{
+    position: absolute;
+    left: 503px;
+    top: 392px;
+}
+.botones{
+	background: #FFD00C;
+	color:#1C2943;
+	display: inline-block;
+	font-size: 1.25em;
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+	width: 150px;
+	text-decoration: none;
+	box-shadow: 0px 3px 0px #373c3c;
+}
+.facultad-datos .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+	box-sizing: inherit;
+}
+
+@media (min-width: 50rem)
+.facultad-datos .container > div {
+    width: 50%;
+}
+@media (min-width: 40rem)
+.facultad-textos:last-child, .facultad-imagen:last-child {
+    padding-right: 0;
+}
+@media (min-width: 40rem)
+.facultad-textos, .facultad-imagen {
+    padding: 5rem;
+}
+.facultad-textos, .facultad-imagen {
+    flex: 1;
+    padding: 1rem;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+div {
+    display: block;
+}
+.final{
+	background: #1C2943;
+}
